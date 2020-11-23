@@ -76,3 +76,7 @@ p {
 .jobs {
   margin-top: 40px
 }
+
+#nav-title {
+  display: none;
+}
