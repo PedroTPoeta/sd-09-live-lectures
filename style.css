@@ -14,10 +14,25 @@ body {
 
 .speaker-form-header {
   text-align: center;
+}
+
+.box-style {
   background-color: rgb(246, 247, 248);
   border: 1px solid rgb(214, 217, 220);
   border-radius: 3px;
   width: 80%;
-  margin: 40px auto;
   padding: 50px;
+  margin: 40px auto;
+}
+
+.line-content {
+  margin: 20px;
+}
+
+.line-content input[type='text'] {
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgb(214, 217, 220);
 }
