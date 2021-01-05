@@ -8,64 +8,52 @@
 </head>
 <body>
   
-  <header class='speaker-form-header box-style'>
+  <header>
     <h1>Conferencia da T9</h1>
     <p><em>Quer palestrar na melhor conferência do mundo? Preencha o formulário!</em></p>
   </header>
 
-  <form class='box-style' action='' method='GET'>
+  <form action='' method='GET'>
     
     <!-- NOME -->
-    <div class='line-content'>
-      <label for='full-name'>Nome</label>
-      <input id='full-name' type='text'>
-    </div>
+    <label for='full-name'>Nome</label>
+    <input id='full-name' type='text'>
 
     <!-- TIPO DA PALESTRA -->
-    <div class="line-content">
-      <fieldset class="fieldset-talk-type">
-        <legend>Tipo de Palestra</legend>
-        <input type="radio" 
-          name="talk-type"
-          id="talk-type-stage"
-          value="main-stage">
-       <label for="talk-type-stage">Palco Principal</label>
+    <fieldset>
+      <legend>Tipo de Palestra</legend>
+      <input type="radio" 
+        name="talk-type"
+        id="talk-type-stage"
+        value="main-stage">
+      <label for="talk-type-stage">Palco Principal</label>
 
-       <input type="radio"
-          name="talk-type"
-          id="talk-type-workshop"
-          value="workshop">
-        <label for="talk-type-workshop">Workshop</label>
-      </fieldset>
-    </div>
+      <input type="radio"
+        name="talk-type"
+        id="talk-type-workshop"
+        value="workshop">
+      <label for="talk-type-workshop">Workshop</label>
+    </fieldset>
 
     <!-- INFO CAMISA -->
-    <div class="line-content">
-      <label for="t-shirt">Tamanho da camisa</label>
-      <select name="t-shirt" id="t-shirt">
-        <option value="p">Pequeno</option>
-        <option value="m">Médio</option>
-        <option value="g">Grande</option>
-        <option value="gg">Extra Grande</option>
-      </select>
-    </div>
+    <label for="t-shirt">Tamanho da camisa</label>
+    <select name="t-shirt" id="t-shirt">
+      <option value="p">Pequeno</option>
+      <option value="m">Médio</option>
+      <option value="g">Grande</option>
+      <option value="gg">Extra Grande</option>
+    </select>
 
     <!-- DESCRICAO DA PALESTRA -->
-    <div class="line-content">
-      <label for="abstract">Descrição da Palestra</label>
-      <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
-    </div>
+    <label for="abstract">Descrição da Palestra</label>
+    <textarea name="abstract" id="abstract"></textarea>
 
     <!-- DISPONIBILIDADE -->
-    <div class="line-content">
-      <input type="checkbox" name="availability" id="availability">
-      <span>Estou disponível nessa data!</span>
-    </div>
+    <input type="checkbox" name="availability" id="availability">
+    <span>Estou disponível nessa data!</span>
 
     <!-- BOTAO DE ENVIAR -->
-    <div class="line-content">
-      <button type="submit">ENVIAR!</button>
-    </div>
+    <button type="submit">ENVIAR!</button>
 
   </form>
 
