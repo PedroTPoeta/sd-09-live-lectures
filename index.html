@@ -15,28 +15,39 @@
 
   <hr>
 
+
   <div class="section">
     <form action='' method='GET'>
-    
-    <!-- NOME -->
-    <label for='full-name'>Nome</label>
-    <input id='full-name' type='text'>
+      <div class="field">
+        
+        <!-- NOME -->
+        <div class="control">
+          <label class="label" for='full-name'>Nome</label>
+          <input class="input" id='full-name' type='text'>
+        </div>
 
-    <!-- TIPO DA PALESTRA -->
-    <fieldset>
-      <legend>Tipo de Palestra</legend>
-      <input type="radio" 
-        name="talk-type"
-        id="talk-type-stage"
-        value="main-stage">
-      <label for="talk-type-stage">Palco Principal</label>
+        <!-- TIPO DA PALESTRA -->
+        <div class="control">
+          <p class="label">Tipo da Palestra</p>
+          <label class="radio" for="talk-type-stage">
+            <input type="radio" 
+              name="talk-type"
+              id="talk-type-stage"
+              value="main-stage">
+            Palco Principal
+          </label>
 
-      <input type="radio"
-        name="talk-type"
-        id="talk-type-workshop"
-        value="workshop">
-      <label for="talk-type-workshop">Workshop</label>
-    </fieldset>
+          <label class="radio" for="talk-type-workshop">
+            <input type="radio"
+              name="talk-type"
+              id="talk-type-workshop"
+              value="workshop">
+            Workshop
+          </label>
+        </div>
+
+      </div>
+
 
     <!-- INFO CAMISA -->
     <label for="t-shirt">Tamanho da camisa</label>
