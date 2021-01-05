@@ -18,16 +18,16 @@
 
   <div class="section">
     <form action='' method='GET'>
-      <div class="field">
+      <div class="control">
         
         <!-- NOME -->
-        <div class="control">
+        <div class="field">
           <label class="label" for='full-name'>Nome</label>
           <input class="input" id='full-name' type='text'>
         </div>
 
         <!-- TIPO DA PALESTRA -->
-        <div class="control">
+        <div class="field">
           <p class="label">Tipo da Palestra</p>
           <label class="radio" for="talk-type-stage">
             <input type="radio" 
@@ -46,17 +46,20 @@
           </label>
         </div>
 
+        <!-- INFO CAMISA -->
+        <div class="field">
+          <label class="label" for="t-shirt">Tamanho da camisa</label>
+          <div class="select">
+            <select name="t-shirt" id="t-shirt">
+              <option value="p">Pequeno</option>
+              <option value="m">Médio</option>
+              <option value="g">Grande</option>
+              <option value="gg">Extra Grande</option>
+            </select>
+          </div>
+        </div>
       </div>
-
-
-    <!-- INFO CAMISA -->
-    <label for="t-shirt">Tamanho da camisa</label>
-    <select name="t-shirt" id="t-shirt">
-      <option value="p">Pequeno</option>
-      <option value="m">Médio</option>
-      <option value="g">Grande</option>
-      <option value="gg">Extra Grande</option>
-    </select>
+    
 
     <!-- DESCRICAO DA PALESTRA -->
     <label for="abstract">Descrição da Palestra</label>
