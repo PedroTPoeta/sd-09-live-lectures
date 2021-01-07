@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: red;
+  background-color: white;
   position: fixed;
   width: 100%;
   padding: 20px 50px;
@@ -33,4 +33,34 @@ a:visited, a:hover, a:active {
 
 header img {
   width: 200px;
+}
+
+.hero {
+  background-image: url(./images/hero.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero .btn {
+  background-color: white;
+  border-radius: 4px;
+  color: #191c03;
+  padding: 20px 50px;
+  text-transform: uppercase;
 }
