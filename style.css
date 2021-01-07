@@ -120,3 +120,67 @@ header img {
 ul {
   list-style: none;
 }
+
+.features {
+  background-color: #191c03;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+
+.features p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+
+.features hr {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 70px;
+  border: none;
+  background-color: white;
+}
+
+.features .grid {
+  width: 100%;
+  display: flex;
+}
+
+.features .grid li {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.features .grid li i {
+  color: #c3c63b;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+.features .grid li h4 {
+  font-size: 1.5rem;
+  color: #c3c63b;
+  margin-bottom: 30px;
+}
+
+.features .grid li:nth-child(1) {
+  order: 3;
+}
+
+.features .grid li:nth-child(2) {
+  order: 1;
+}
+
+.features .grid li:nth-child(3) {
+  order: 2;
+}
