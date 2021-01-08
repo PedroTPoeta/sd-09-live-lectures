@@ -189,7 +189,7 @@ ul {
 @media screen and (max-width: 680px) {
   header {
     position: absolute;
-    justify-content: center;
+    /* justify-content: s; */
   }
 
   header nav {
@@ -203,6 +203,14 @@ ul {
 
   .hero h3 {
     font-size: 1rem;
+  }
+
+  .know-the-hotel .grid li.small {
+    flex-basis: 100%;
+  }
+  
+  .know-the-hotel .grid li.large {
+    flex-basis: 100%;
   }
 
 }
