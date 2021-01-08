@@ -184,3 +184,11 @@ ul {
 .features .grid li:nth-child(3) {
   order: 2;
 }
+
+/* Media Query para telas menores que 680px */
+@media screen and (max-width: 680px) {
+  header {
+    position: absolute;
+  }
+}
+
