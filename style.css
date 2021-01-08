@@ -190,5 +190,8 @@ ul {
   header {
     position: absolute;
   }
-}
 
+  header nav {
+    display: none;
+  }
+}
