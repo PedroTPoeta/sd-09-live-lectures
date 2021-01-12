@@ -27,8 +27,3 @@ const greetings = name => {
 }
 
 greetings('Lenilsom');
-
-
-const greetings = () => {
-  console.log('ola!');
-}
