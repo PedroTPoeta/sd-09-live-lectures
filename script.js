@@ -10,6 +10,10 @@
 const assert = require('assert');
 
 const summationOf = (number) => {
+  if (typeof(number) !== 'number') {
+    throw 'Nosso código não permite NADA DIFERENTE de number.';
+  }
+
   let summation = 0;
 
   for (let index = 1; index <= number; index += 1) {
@@ -24,3 +28,10 @@ assert.strictEqual(summationOf(1), 1);
 assert.strictEqual(summationOf(3), 6);
 assert.strictEqual(summationOf(4), 10);
 assert.strictEqual(summationOf(5), 15, 'O somatório de 5 DEVERIA ser 15.');
+
+assert.throws(() => {
+  // o que tiver dentro dessa função, TEM que lançar exceção.
+  summationOf('xablau');
+  summationOf([]);
+  summationOf({});
+})
