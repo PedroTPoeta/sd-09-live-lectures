@@ -33,5 +33,5 @@ assert.throws(() => {
   // o que tiver dentro dessa função, TEM que lançar exceção.
   summationOf('xablau');
   summationOf([]);
-  summationOf({});
-})
+  summationOf({ });
+});
