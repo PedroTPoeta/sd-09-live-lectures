@@ -16,5 +16,8 @@ scores.sort((value1, value2) => {
   return value1 - value2;
 });
 
+// Também da pra fazer assim :)
+// scores.sort((value1, value2) => value1 - value2);
+
 console.log("Depois de ordenar:")
 console.log(scores); 

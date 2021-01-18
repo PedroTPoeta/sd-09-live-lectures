@@ -13,6 +13,7 @@ const isThereAnyoneThatDontDrive = users.some((value) => {
   return value.isDriver === false;
 });
 
-console.log(isThereAnyoneThatDontDrive);
-
+// Também da pra fazer assim :)
 // users.some((value) => value.isDriver === false );
+
+console.log(isThereAnyoneThatDontDrive);

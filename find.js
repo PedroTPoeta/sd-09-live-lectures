@@ -10,4 +10,7 @@ const firstUserThatDontDrive = users.find((value) => {
   return value.isDriver === false;
 });
 
+// Também da pra fazer assim :)
+// const firstUserThatDontDrive = users.find((value) => value.isDriver === false);
+
 console.log(firstUserThatDontDrive.firstName);

@@ -9,8 +9,9 @@ const users = [
 // Todo mundo desse array sabe dirigir?
 const isEveryoneADriver = users.every((user) => user.isDriver === true);
 
-console.log(isEveryoneADriver);
-
+// Também da pra fazer assim :)
 // users.every((user) => {
 //   return user.isDriver;
 // });
+
+console.log(isEveryoneADriver);
